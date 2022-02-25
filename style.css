@@ -1,0 +1,85 @@
+body {
+  background-color: rgb(243, 233, 247);
+   color: rgb(105, 73, 145);
+   font-family: 'Lato', sans-serif;
+   font-weight: 600;
+  }
+
+h1, h2, h3 {
+  font-family: 'Fjalla One', sans-serif;
+
+}
+h1 {
+  color: rgb(35,45,110);
+  letter-spacing: 8px;
+  font-size: 50px;
+}
+
+h2 {
+  color: rgb(66, 76, 143);
+
+}
+a {
+   text-decoration: none;
+   color: rgb(67, 42, 97);
+   font-weight: bold;
+}
+a:hover {
+
+	color: white;
+}
+
+/* Custom design with class (99% of your design) */
+
+.container {
+  width: 700px;
+  margin: 40px auto;
+  }
+
+@media (max-width: 760px) {
+.container {
+  width: 600px;
+}
+
+@media (max-width: 500px) {
+.container {
+  width: 400px;
+}
+
+  }
+.card-white {
+   background-color: rgb(245,237,255); 
+   padding: 40px;
+   box-shadow: 0px 10px 30px rgba(0,0,0, 0.1);
+   border-radius: 4px;
+   margin: 20px 0px;
+   text-align: center;
+  }
+
+.img-circle {
+  border-radius: 50%;
+}
+
+
+.list-inline {
+ list-style: none;
+ padding-left: 0px
+}
+
+.list-inline li {
+ display: inline;
+ padding: 10px;
+}
+ 
+.list-inline i {
+  font-size: 50px
+}
+
+.list-inline i:hover {
+  color: white;
+}
+#introduction p {
+  margin-bottom: 40px;
+}
+
+
